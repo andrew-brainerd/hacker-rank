@@ -1,4 +1,5 @@
 // O(logN) time complexity
+// Only works on sorted arrays
 
 function binarySearch(arr, search, start, end) {
   const startNum = start || 0;
