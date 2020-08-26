@@ -8,7 +8,7 @@ const findVowels = str => {
     }
   }
 
-  return count
+  return count;
 }
 
 console.log(findVowels('hello'));
