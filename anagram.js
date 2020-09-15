@@ -1,6 +1,6 @@
 const buildCharObject = str => {
   const charObj = {};
-  for (let char of str.replace(/[^\w]/g).toLowerCase()) {
+  for (let char of str.replace(/[\W]/g).toLowerCase()) {
     charObj[char] = charObj[char] + 1 || 1;
   }
 
